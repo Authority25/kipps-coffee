@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@keyframes section2-animation {
+  from {
+    transform: translateX(0vw);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #59422e;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.hero-section {
+  height: 99vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(Images/Background\ image.png);
+}
+
+.logo {
+  margin-top: -10px;
+  margin-left: -50px;
+  height: 150px;
+}
+.kc-h1 {
+  color: white;
+  margin-top: 30vh;
+  font-family: inter;
+  text-align: center;
+  font-size: 3.5em;
+}
+.orderNow {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.cwp {
+  color: white;
+  margin-left: 80.9vw;
+  margin-top: 150px;
+}
+
+/* SECTION2 */
+
+.section2 {
+  height: 100vh;
+}
+.section2hr {
+  height: 0.5px;
+  background-color: white;
+  color: white;
+  margin-top: 40px;
+  width: 60vw;
+}
+.options-text {
+  margin-top: 90px;
+  color: white;
+  text-align: center;
+}
+.options {
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.optionimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: section2-animation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 27s;
+  margin-top: 12vh;
+  flex-shrink: 0;
+  border-radius: 104px;
+  background-color: aliceblue;
+  width: 423px;
+  height: 419px;
+  margin-left: 3em;
+}
+.options::-webkit-scrollbar {
+  display: none;
+}
+.image1 {
+  background-image: url(Images/Cappuccino.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 3em;
+  background-position: center;
+  text-align: center;
+}
+.image2 {
+  background-image: url(Images/Espresso.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+.image3 {
+  background-repeat: no-repeat;
+  background-image: url(Images/Americano.jfif);
+  background-size: cover;
+  color: white;
+  font-size: 3em;
+  background-position: center;
+  text-align: center;
+}
+.section3 {
+  margin: 0;
+  height: 200vh;
+  background: url(Images/Section\ 3\ bacground.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.location-underline {
+  width: 80vw;
+}
+.location-txt {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 70px;
+}
+.locationimg1 {
+  display: flex;
+  background:url(Images/World\ Of\ Coffee.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 60px;
+  margin-left: 30px;
+  height: 80vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  margin-top: 50px;
+  color: white;
+  font-size: 5em;
+}
+.location1{
+  position: relative;
+}
+.address1{
+  font-size: 30px;
+  position: absolute;
+  left: 30%;
+  height: 45vh;
+  width: 20vw;
+  border:4px solid ;
+  border-color: #1DFF83;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.location2{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.locationimg2 {
+  position: absolute;
+  display: flex;
+  background:url(Images/World\ Of\ Coffee.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 60px;
+  margin-left: 30px;
+  height: 80vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  margin-top: 50px;
+  color: white;
+  font-size: 5em;
+}
+.address2{
+  font-size: 30px;
+  right: 27vw;
+  position: absolute;
+  height: 45vh;
+  width: 20vw;
+  border:4px solid ;
+  border-color: #1DFF83;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+.footer{
+  color: white;
+  text-align: center;
+  align-items: center;
+  height: 20vh;
+}
